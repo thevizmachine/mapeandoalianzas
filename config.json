@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "The Viz Machine",
+    "file": "http://i.imgur.com/ZJHBBF2.png",
+    "link": "http://thevizmachine.github.io/web/"
+  },
+  "text": {
+    "title": "MAPEANDO ALIANZAS",
+    "more": "",
+    "intro": "Visualización de las alianzas partidarias en las elecciones 2013"
+  },
+  "legend": {
+    "edgeLabel": "Alianza",
+    "colorLabel": "Cluster",
+    "nodeLabel": "Partido"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 2,
+      "maxNodeSize": 15,
+      "maxEdgeSize": 15,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
